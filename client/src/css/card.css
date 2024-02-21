@@ -1,0 +1,63 @@
+.product-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    border: none;
+    overflow: hidden;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-card .card-img-top {
+    object-fit: cover;
+    height: 400px;
+}
+
+.product-card .card-body {
+    background-color: #f8f9fa;
+}
+
+.product-card .btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.product-card .btn-primary:hover {
+    background-color: #0056b3;
+}
+/* ======================= */
+@keyframes clignoter {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .clignotant {
+    font-size: 24px;
+    font-weight: bold;
+    color: 
+    #3c9e7d; /* Couleur du texte */
+    animation: clignoter 1s infinite; /* 1s est la durée de l'animation, infinite répète l'animation indéfiniment */
+  }
+
+  .clignotant1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: 
+    #be9337; /* Couleur du texte */
+    animation: clignoter 1s infinite; /* 1s est la durée de l'animation, infinite répète l'animation indéfiniment */
+  }
+
+  .card2{
+    border: 2px solid #3c9e7d;
+  }
+  .card1{
+    border: 2px solid #0078c0;
+  }
